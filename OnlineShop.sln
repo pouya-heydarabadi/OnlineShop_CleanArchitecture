@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Api", "Presentation\OnlineShop.Api\OnlineShop.Api.csproj", "{86D4C64E-91EC-4DB3-B318-C049C3309FBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.UI", "OnlineShop.UI\OnlineShop.UI\OnlineShop.UI.csproj", "{CFFA7AC8-1CCC-4BB6-97C0-B88BB4E19F6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.UI", "OnlineShop.UI\OnlineShop.UI\OnlineShop.UI.csproj", "{CFFA7AC8-1CCC-4BB6-97C0-B88BB4E19F6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.UI.Client", "OnlineShop.UI\OnlineShop.UI.Client\OnlineShop.UI.Client.csproj", "{138D4F35-2E51-4B7F-B78E-A1FC229A9017}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.UI.Client", "OnlineShop.UI\OnlineShop.UI.Client\OnlineShop.UI.Client.csproj", "{138D4F35-2E51-4B7F-B78E-A1FC229A9017}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
