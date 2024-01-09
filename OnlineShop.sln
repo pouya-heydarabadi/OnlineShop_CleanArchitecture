@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop", "OnlineShop\OnlineShop.csproj", "{2FC38078-DBBC-499B-A01C-AAC338821C92}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{DA6C11BA-1336-4B6A-997F-34DB2807884E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Api", "Presentation\OnlineShop.Api\OnlineShop.Api.csproj", "{86D4C64E-91EC-4DB3-B318-C049C3309FBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2FC38078-DBBC-499B-A01C-AAC338821C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2FC38078-DBBC-499B-A01C-AAC338821C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2FC38078-DBBC-499B-A01C-AAC338821C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2FC38078-DBBC-499B-A01C-AAC338821C92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86D4C64E-91EC-4DB3-B318-C049C3309FBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D4C64E-91EC-4DB3-B318-C049C3309FBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D4C64E-91EC-4DB3-B318-C049C3309FBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D4C64E-91EC-4DB3-B318-C049C3309FBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86D4C64E-91EC-4DB3-B318-C049C3309FBC} = {DA6C11BA-1336-4B6A-997F-34DB2807884E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7E0046C1-ED1C-46F1-92C1-06B86F4E843C}
