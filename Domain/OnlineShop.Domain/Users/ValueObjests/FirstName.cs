@@ -19,8 +19,6 @@ public class FirstName
             throw new FirstNameCannotBeMoreThanTwoCharException();
         this.Value = value;
     }
-
-
     #region Factories
     public static FirstName FromString(string value)
         => new FirstName(value);
