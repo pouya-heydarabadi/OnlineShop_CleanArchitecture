@@ -15,7 +15,8 @@ public class FirstName
             throw new FirstNameCannotBeEmptyException();
         if (value.Length <= 2)
             throw new FirstNameCannotBeLessThanTwoCharException();
-
+        else if (value.Length < 13)
+            throw new FirstNameCannotBeMoreThanTwoCharException();
         this.Value = value;
     }
 
@@ -25,5 +26,21 @@ public class FirstName
         => new FirstName(value);
     #endregion
 
+    #endregion
+
+    // Codes that are repeated repeatedly in the  Value Objects
+    #region Functions
+    public override int GetHashCode()
+    {
+        return Value.GetHashCode();
+    }
+    public static bool operator ==(FirstName right, FirstName left)
+    {
+        return right.Equals(left);
+    }
+    public static bool operator !=(FirstName right, FirstName left)
+    {
+        return !(right == left);
+    }
     #endregion
 }
