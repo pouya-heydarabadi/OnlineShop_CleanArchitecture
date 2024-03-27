@@ -1,4 +1,6 @@
-﻿using OnlineShop.Domain.Users.Exceptions.ValueObject.FirstName;
+﻿using System.Runtime.CompilerServices;
+
+using OnlineShop.Domain.Users.Exceptions.ValueObject.FirstName;
 
 namespace OnlineShop.Domain.Users.ValueObjests;
 
@@ -32,6 +34,12 @@ public class FirstName
     {
         return Value.GetHashCode();
     }
+
+    public override string? ToString()
+    {
+        return this.Value.ToString();
+    }
+
     public static bool operator ==(FirstName right, FirstName left)
     {
         return right.Equals(left);
@@ -40,5 +48,7 @@ public class FirstName
     {
         return !(right == left);
     }
+
+
     #endregion
 }
